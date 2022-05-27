@@ -1,0 +1,42 @@
+@import 'variables.scss';
+
+.allMoviesClass {
+    width: 100vw;
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    overflow: scroll;
+    grid-row-start: 1;
+}
+
+
+.movieInfo {
+    grid-row: 1;
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-rows: repeat(3, 1fr);
+    width: 40vw;
+    height: 40vh;
+    /* height: 30vw; */
+    margin-left: 20px;
+    // border: 1px solid $mainTxtColor;
+
+    * {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .noteSvg {
+        width: 75%;
+    }
+
+
+    .imagesPoster {
+        width: 100%;
+        border-radius: 30px;
+    }
+}

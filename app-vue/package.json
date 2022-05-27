@@ -1,0 +1,22 @@
+{
+  "name": "app-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "axios": "^0.27.2",
+    "pinia": "^2.0.13",
+    "save": "^2.5.0",
+    "vue": "^3.2.33",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.5"
+  }
+}
